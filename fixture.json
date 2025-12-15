@@ -1,0 +1,1168 @@
+[
+    {
+      "id": "p_igyfhvn",
+      "fecha": "2026-06-11T19:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo A",
+      "fasePersonalizada": "",
+      "equipo1": "México",
+      "equipo2": "Sudáfrica",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765553728817
+    },
+    {
+      "id": "p_3veobyv",
+      "fecha": "2026-06-12T02:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo B",
+      "fasePersonalizada": "",
+      "equipo1": "República de Corea",
+      "equipo2": "a confirmar",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765553710679
+    },
+    {
+      "id": "p_cps03kc",
+      "fecha": "2026-06-12T19:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo B",
+      "fasePersonalizada": "",
+      "equipo1": "Canadá",
+      "equipo2": "a confirmar",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765553687009
+    },
+    {
+      "id": "p_t63oobu",
+      "fecha": "2026-06-13T01:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo D",
+      "fasePersonalizada": "",
+      "equipo1": "Estados Unidos",
+      "equipo2": "Paraguay",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765553671530
+    },
+    {
+      "id": "p_8gsi1z4",
+      "fecha": "2026-06-13T19:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo B",
+      "fasePersonalizada": "",
+      "equipo1": "Catar",
+      "equipo2": "Suiza",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765553654986
+    },
+    {
+      "id": "p_03lq3eh",
+      "fecha": "2026-06-13T22:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo C",
+      "fasePersonalizada": "",
+      "equipo1": "Brasil",
+      "equipo2": "Marruecos",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765553631176
+    },
+    {
+      "id": "p_3yogwo3",
+      "fecha": "2026-06-14T01:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo C",
+      "fasePersonalizada": "",
+      "equipo1": "Haití",
+      "equipo2": "Escocia",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765553515723
+    },
+    {
+      "id": "p_w6ei9it",
+      "fecha": "2026-06-14T04:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo D",
+      "fasePersonalizada": "",
+      "equipo1": "Australia",
+      "equipo2": "a confirmar",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765553585776
+    },
+    {
+      "id": "p_rs8940h",
+      "fecha": "2026-06-14T17:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo E",
+      "fasePersonalizada": "",
+      "equipo1": "Alemania",
+      "equipo2": "Curazao",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765553836250
+    },
+    {
+      "id": "p_4qjv3n1",
+      "fecha": "2026-06-14T20:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo F",
+      "fasePersonalizada": "",
+      "equipo1": "Países Bajos",
+      "equipo2": "Japón",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765553996582
+    },
+    {
+      "id": "p_hlk9tej",
+      "fecha": "2026-06-14T23:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo E",
+      "fasePersonalizada": "",
+      "equipo1": "Costa de Marfil",
+      "equipo2": "Ecuador",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765554075405
+    },
+    {
+      "id": "p_cbk4dd7",
+      "fecha": "2026-06-15T02:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo F",
+      "fasePersonalizada": "",
+      "equipo1": "a confirmar",
+      "equipo2": "Túnez",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765554196170
+    },
+    {
+      "id": "p_6ztficv",
+      "fecha": "2026-06-15T16:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo H",
+      "equipo1": "España",
+      "equipo2": "Cabo Verde",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765556911941
+    },
+    {
+      "id": "p_2hl3xep",
+      "fecha": "2026-06-15T19:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo G",
+      "equipo1": "Bélgica",
+      "equipo2": "Egipto",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765557757081
+    },
+    {
+      "id": "p_qt99dar",
+      "fecha": "2026-06-15T22:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo H",
+      "equipo1": "Arabia Saudita",
+      "equipo2": "Uruguay",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765557895883
+    },
+    {
+      "id": "p_k44maxy",
+      "fecha": "2026-06-16T01:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo G",
+      "equipo1": "Irán",
+      "equipo2": "Nueva Zelanda",
+      "marcador": {
+        "g1": null
+      },
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765557980329
+    },
+    {
+      "id": "p_lslx0of",
+      "fecha": "2026-06-16T19:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo I",
+      "equipo1": "Francia",
+      "equipo2": "Senegal",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765558205746
+    },
+    {
+      "id": "p_3omd2gr",
+      "fecha": "2026-06-16T22:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo I",
+      "equipo1": "a confirmar",
+      "equipo2": "Noruega",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765558262961
+    },
+    {
+      "id": "p_803l9ml",
+      "fecha": "2026-06-17T01:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo J",
+      "equipo1": "Argentina",
+      "equipo2": "Argelia",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765558309669
+    },
+    {
+      "id": "p_w6bc3h3",
+      "fecha": "2026-06-17T04:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo J",
+      "equipo1": "Austria",
+      "equipo2": "Jordania",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765558583146
+    },
+    {
+      "id": "p_hsk91zy",
+      "fecha": "2026-06-17T17:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo K",
+      "equipo1": "Portugal",
+      "equipo2": "a confirmar",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765558654055
+    },
+    {
+      "id": "p_ebayu29",
+      "fecha": "2026-06-17T20:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo L",
+      "equipo1": "Inglaterra",
+      "equipo2": "Croacia",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765558700463
+    },
+    {
+      "id": "p_6b0ponf",
+      "fecha": "2026-06-17T23:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo L",
+      "equipo1": "Ghana",
+      "equipo2": "Panamá",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765558756982
+    },
+    {
+      "id": "p_c9c6jge",
+      "fecha": "2026-06-18T02:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo K",
+      "equipo1": "Uzbekistán",
+      "equipo2": "Colombia",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765558840205
+    },
+    {
+      "id": "p_wd7d2vr",
+      "fecha": "2026-06-18T16:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo A",
+      "equipo1": "a confirmar",
+      "equipo2": "Sudáfrica",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765563559729
+    },
+    {
+      "id": "p_3rtncxz",
+      "fecha": "2026-06-18T19:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo B",
+      "equipo1": "Suiza",
+      "equipo2": "a confirmar",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765563620235
+    },
+    {
+      "id": "p_utzuccs",
+      "fecha": "2026-06-18T22:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo B",
+      "equipo1": "Canadá",
+      "equipo2": "Catar",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765563665323
+    },
+    {
+      "id": "p_4vl2foa",
+      "fecha": "2026-06-19T01:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo A",
+      "equipo1": "México",
+      "equipo2": "Corea del Sur",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765563718994
+    },
+    {
+      "id": "p_uakfcl6",
+      "fecha": "2026-06-19T19:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo D",
+      "equipo1": "Estados Unidos",
+      "equipo2": "Australia",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765563784664
+    },
+    {
+      "id": "p_muc6axf",
+      "fecha": "2026-06-19T22:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo C",
+      "equipo1": "Escocia",
+      "equipo2": "Marruecos",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765563836379
+    },
+    {
+      "id": "p_j9qhum9",
+      "fecha": "2026-06-20T01:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo C",
+      "equipo1": "Brasil",
+      "equipo2": "Haití",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765563889032
+    },
+    {
+      "id": "p_w2rn4a9",
+      "fecha": "2026-06-20T04:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo D",
+      "equipo1": "a confirmar",
+      "equipo2": "Paraguay",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765563958930
+    },
+    {
+      "id": "p_bltx7e6",
+      "fecha": "2026-06-20T17:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo F",
+      "equipo1": "Países Bajos",
+      "equipo2": "a confirmar",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765564018877
+    },
+    {
+      "id": "p_2defd1x",
+      "fecha": "2026-06-20T20:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo E",
+      "equipo1": "Alemania",
+      "equipo2": "Costa de Marfíl",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765564102512
+    },
+    {
+      "id": "p_vj7g39x",
+      "fecha": "2026-06-21T00:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo E",
+      "equipo1": "Ecuador",
+      "equipo2": "Curazao",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765564185989
+    },
+    {
+      "id": "p_s0pwimm",
+      "fecha": "2026-06-21T04:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo F",
+      "equipo1": "Túnez",
+      "equipo2": "Japón",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765564269406
+    },
+    {
+      "id": "p_40dfoix",
+      "fecha": "2026-06-21T16:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo H",
+      "equipo1": "España",
+      "equipo2": "Arabia Saudita",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765564331906
+    },
+    {
+      "id": "p_k8ktulb",
+      "fecha": "2026-06-21T19:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo G",
+      "equipo1": "Bélgica",
+      "equipo2": "Irán",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765564391371
+    },
+    {
+      "id": "p_kakahkj",
+      "fecha": "2026-06-21T22:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo H",
+      "equipo1": "Uruguay",
+      "equipo2": "Cabo Verde",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765564438403
+    },
+    {
+      "id": "p_imx3f87",
+      "fecha": "2026-06-22T01:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo G",
+      "equipo1": "Nueva Zelanda",
+      "equipo2": "Egipto",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765564500886
+    },
+    {
+      "id": "p_7lrq063",
+      "fecha": "2026-06-22T17:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo J",
+      "equipo1": "Argentina",
+      "equipo2": "Austria",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765564547670
+    },
+    {
+      "id": "p_7ye7xto",
+      "fecha": "2026-06-22T21:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo I",
+      "equipo1": "Francia",
+      "equipo2": "a confirmar",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765564591481
+    },
+    {
+      "id": "p_p37xt6n",
+      "fecha": "2026-06-23T00:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo I",
+      "equipo1": "Noruega",
+      "equipo2": "Senegal",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765564664518
+    },
+    {
+      "id": "p_u341afs",
+      "fecha": "2026-06-23T15:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo J",
+      "equipo1": "Jordania",
+      "equipo2": "Argelia",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765564793081
+    },
+    {
+      "id": "p_mo30nby",
+      "fecha": "2026-06-23T17:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo K",
+      "equipo1": "Portugal",
+      "equipo2": "Uzbekistán",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765564913852
+    },
+    {
+      "id": "p_zaa4ptu",
+      "fecha": "2026-06-23T20:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo L",
+      "equipo1": "Inglaterra",
+      "equipo2": "Ghana",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765564963596
+    },
+    {
+      "id": "p_3jrceh2",
+      "fecha": "2026-06-23T23:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo L",
+      "equipo1": "Panamá",
+      "equipo2": "Croacia",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765565047401
+    },
+    {
+      "id": "p_0jup704",
+      "fecha": "2026-06-24T02:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo K",
+      "equipo1": "Colombia",
+      "equipo2": "a confirmar",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765565102142
+    },
+    {
+      "id": "p_gqjc8c3",
+      "fecha": "2026-06-24T18:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo B",
+      "equipo1": "Suiza",
+      "equipo2": "Canadá",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765565172103
+    },
+    {
+      "id": "p_xndtmw7",
+      "fecha": "2026-06-24T19:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo B",
+      "equipo1": "a confirmar",
+      "equipo2": "Catar",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765565213817
+    },
+    {
+      "id": "p_akb39ss",
+      "fecha": "2026-06-24T22:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo C",
+      "equipo1": "Marruecos",
+      "equipo2": "Haití",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765565255766
+    },
+    {
+      "id": "p_wdt8r3d",
+      "fecha": "2026-06-24T22:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo C",
+      "equipo1": "Escocia",
+      "equipo2": "Brasil",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765565296736
+    },
+    {
+      "id": "p_pw2puvs",
+      "fecha": "2026-06-25T01:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo A",
+      "equipo1": "Sudáfrica",
+      "equipo2": "Corea del Sur",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765565389963
+    },
+    {
+      "id": "p_qtgnf3v",
+      "fecha": "2026-06-25T01:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo A",
+      "equipo1": "a confirmar",
+      "equipo2": "México",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765565435822
+    },
+    {
+      "id": "p_71i875d",
+      "fecha": "2026-06-25T20:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo E",
+      "equipo1": "Curazao",
+      "equipo2": "Costa de Marfíl",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765565525010
+    },
+    {
+      "id": "p_cgwyrb0",
+      "fecha": "2026-06-25T20:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo E",
+      "equipo1": "Ecuador",
+      "equipo2": "Alemania",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765565563265
+    },
+    {
+      "id": "p_y3b1wpy",
+      "fecha": "2026-06-25T23:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo F",
+      "equipo1": "Túnez",
+      "equipo2": "Países Bajos",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765565606745
+    },
+    {
+      "id": "p_9z6j7kk",
+      "fecha": "2026-06-25T23:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo F",
+      "equipo1": "Japón",
+      "equipo2": "a confirmar",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765565651664
+    },
+    {
+      "id": "p_8x70t4t",
+      "fecha": "2026-06-26T02:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo D",
+      "equipo1": "a confirmar",
+      "equipo2": "Estados Unidos",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765565696958
+    },
+    {
+      "id": "p_64xiel0",
+      "fecha": "2026-06-26T02:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo D",
+      "equipo1": "Paraguay",
+      "equipo2": "Australia",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765565736753
+    },
+    {
+      "id": "p_3hr610y",
+      "fecha": "2026-06-26T19:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo I",
+      "equipo1": "Noruega",
+      "equipo2": "Francia",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765566232454
+    },
+    {
+      "id": "p_3do8oqu",
+      "fecha": "2026-06-26T19:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo I",
+      "equipo1": "Senegal",
+      "equipo2": "a confirmar",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765566284938
+    },
+    {
+      "id": "p_z295o1q",
+      "fecha": "2026-06-27T00:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo H",
+      "equipo1": "Cabo Verde",
+      "equipo2": "Arabia Saudita",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765566335027
+    },
+    {
+      "id": "p_95pm9ve",
+      "fecha": "2026-06-27T00:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo H",
+      "equipo1": "Uruguay",
+      "equipo2": "España",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765566371547
+    },
+    {
+      "id": "p_7f6aui1",
+      "fecha": "2026-06-27T15:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo G",
+      "equipo1": "Nueva Zelanda",
+      "equipo2": "Bélgica",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765566457144
+    },
+    {
+      "id": "p_kiyk4xi",
+      "fecha": "2026-06-27T15:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo G",
+      "equipo1": "Egipto",
+      "equipo2": "Irán",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765566494318
+    },
+    {
+      "id": "p_5iuydpt",
+      "fecha": "2026-06-27T21:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo L",
+      "equipo1": "Panamá",
+      "equipo2": "Inglaterra",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765566540941
+    },
+    {
+      "id": "p_1e8p6t5",
+      "fecha": "2026-06-27T21:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo L",
+      "equipo1": "Croacia",
+      "equipo2": "Ghana",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765566573897
+    },
+    {
+      "id": "p_3l1n2mv",
+      "fecha": "2026-06-27T23:30:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo K",
+      "equipo1": "Colombia",
+      "equipo2": "Portugal",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765566617344
+    },
+    {
+      "id": "p_kb1xpav",
+      "fecha": "2026-06-27T23:30:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo K",
+      "equipo1": "a confirmar",
+      "equipo2": "Uzbekistán",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765566671824
+    },
+    {
+      "id": "p_qx0mhdl",
+      "fecha": "2026-06-28T02:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo J",
+      "equipo1": "Argelia",
+      "equipo2": "Austria",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765566710909
+    },
+    {
+      "id": "p_rttrs63",
+      "fecha": "2026-06-28T02:00:00.000Z",
+      "phase": "Fase de grupos",
+      "subphase": "Grupo J",
+      "equipo1": "Jordania",
+      "equipo2": "Argentina",
+      "marcador": null,
+      "prediccion": {
+        "g1": null,
+        "g2": null,
+        "confirmada": false
+      },
+      "comentario": "",
+      "creadoEl": 1765566750319
+    }
+]
