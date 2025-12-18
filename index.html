@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizador Seguro</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; padding: 20px; }
+        .login-screen, .app-screen { display: none; }
+        .login-screen.active, .app-screen.active { display: block; }
+        .login-container { max-width: 400px; margin: 50px auto; background: white; padding: 40px; border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
+        .login-container h1 { color: #667eea; text-align: center; margin-bottom: 30px; }
+        .form-group { margin-bottom: 20px; }
+        label { display: block; margin-bottom: 8px; font-weight: 600; color: #333; }
+        input, select, textarea { width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 8px; font-size: 16px; }
+        input:focus, select:focus, textarea:focus { outline: none; border-color: #667eea; }
+        button { width: 100%; padding: 15px; background: #667eea; color: white; border: none; border-radius: 10px; font-size: 18px; font-weight: bold; cursor: pointer; }
+        button:hover { background: #5568d3; }
+        .error { background: #f8d7da; color: #721c24; padding: 12px; border-radius: 8px; margin-bottom: 15px; display: none; }
+        .info { background: #d1ecf1; color: #0c5460; padding: 12px; border-radius: 8px; margin-bottom: 15px; font-size: 14px; }
+        .container { max-width: 800px; margin: 0 auto; background: white; border-radius: 20px; padding: 30px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
+        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+        .header h1 { color: #667eea; font-size: 28px; }
+        .logout-btn { background: #dc3545; color: white; border: none; padding: 10px 20px; border-radius: 8px; cursor: pointer; font-weight: 600; }
+        .form-section { background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 25px; border-radius: 15px; margin: 20px 0; }
+        .form-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; }
+        .task-item { background: white; border-left: 5px solid #667eea; border-radius: 10px; padding: 20px; margin-bottom: 15px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .task-item.completed { opacity: 0.6; border-left-color: #28a745; }
+        .task-item.overdue { background: #fff5f5; border-left-color: #dc3545; }
+        .task-header { display: flex; justify-content: space-between; margin-bottom: 10px; }
+        .task-title { font-size: 18px; font-weight: bold; color: #333; }
+        .task-item.completed .task-title { text-decoration: line-through; }
+        .task-actions { display: flex; gap: 8px; }
+        .task-actions button { width: auto; padding: 6px 12px; font-size: 14px; }
+        .btn-complete { background: #28a745; }
+        .btn-delete { background: #dc3545; }
+        .empty { text-align: center; padding: 40px; color: #999; }
+        .link { text-align: center; margin-top: 15px; }
+        .link a { color: #667eea; text-decoration: none; font-weight: 600; }
+        @media (max-width: 600px) { .form-row { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <div id="loginScreen" class="login-screen active">
+        <div class="login-container">
+            <h1>🔐 Acceso Seguro</h1>
+            <div id="error" class="error"></div>
+            <div id="setupForm" style="display:none;">
+                <div class="info"><strong>Primera vez:</strong> Define tu contraseña (mínimo 4 caracteres)</div>
+                <div class="form-group"><label>Contraseña</label><input type="password" id="pass1" placeholder="Mínimo 4 caracteres"></div>
+                <div class="form-group"><label>Confirmar</label><input type="password" id="pass2" placeholder="Repite la contraseña"></div>
+                <button onclick="setup()">Crear y Acceder</button>
+            </div>
+            <div id="loginForm" style="display:none;">
+                <div class="form-group"><label>Contraseña</label><input type="password" id="loginPass"></div>
+                <button onclick="login()">Acceder</button>
+                <div class="link"><a href="#" onclick="reset()">¿Olvidaste tu contraseña?</a></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="appScreen" class="app-screen">
+        <div class="container">
+            <div class="header">
+                <div><h1>📋 Mis Tareas</h1></div>
+                <button class="logout-btn" onclick="logout()">🚪 Salir</button>
+            </div>
+            <div class="form-section">
+                <h3 style="margin-bottom:15px">➕ Nueva Tarea</h3>
+                <div class="form-group"><label>Título *</label><input type="text" id="title"></div>
+                <div class="form-group"><label>Descripción</label><textarea id="desc" rows="2"></textarea></div>
+                <div class="form-row">
+                    <div class="form-group"><label>Fecha *</label><input type="date" id="date"></div>
+                    <div class="form-group"><label>Hora *</label><input type="time" id="time"></div>
+                    <div class="form-group"><label>Recordar antes</label>
+                        <select id="reminder">
+                            <option value="0.25">15 min</option>
+                            <option value="0.5">30 min</option>
+                            <option value="1" selected>1 hora</option>
+                            <option value="2">2 horas</option>
+                            <option value="24">1 día</option>
+                        </select>
+                    </div>
+                </div>
+                <button onclick="addTask()">Agregar</button>
+            </div>
+            <h3 style="margin:20px 0">📝 Lista (<span id="count">0</span> pendientes)</h3>
+            <div id="tasks"></div>
+            <div class="link"><a href="#" onclick="changePass()">⚙️ Cambiar contraseña</a></div>
+        </div>
+    </div>
+
+    <script>
+        let tasks = [], pass = '';
+        function h(s) { let h=0; for(let i=0;i<s.length;i++) h=((h<<5)-h)+s.charCodeAt(i)|0; return h.toString(36); }
+        function enc(t,k) { let r=''; for(let i=0;i<t.length;i++) r+=String.fromCharCode(t.charCodeAt(i)^k.charCodeAt(i%k.length)); return btoa(r); }
+        function dec(e,k) { try { let t=atob(e),r=''; for(let i=0;i<t.length;i++) r+=String.fromCharCode(t.charCodeAt(i)^k.charCodeAt(i%k.length)); return r; } catch(e) { return null; }}
+        
+        function init() {
+            const hp = localStorage.getItem('hp');
+            if(hp) document.getElementById('loginForm').style.display='block';
+            else document.getElementById('setupForm').style.display='block';
+        }
+        
+        function setup() {
+            const p1 = document.getElementById('pass1').value;
+            const p2 = document.getElementById('pass2').value;
+            if(p1.length<4) return err('Mínimo 4 caracteres');
+            if(p1!==p2) return err('Las contraseñas no coinciden');
+            localStorage.setItem('hp', h(p1));
+            pass = p1;
+            showApp();
+        }
+        
+        function login() {
+            const p = document.getElementById('loginPass').value;
+            if(h(p) === localStorage.getItem('hp')) {
+                pass = p;
+                loadTasks();
+                showApp();
+            } else err('Contraseña incorrecta');
+        }
+        
+        function showApp() {
+            document.getElementById('loginScreen').classList.remove('active');
+            document.getElementById('appScreen').classList.add('active');
+            render();
+        }
+        
+        function logout() {
+            if(confirm('¿Cerrar sesión?')) {
+                tasks = [];
+                pass = '';
+                document.getElementById('appScreen').classList.remove('active');
+                document.getElementById('loginScreen').classList.add('active');
+                document.getElementById('loginPass').value = '';
+            }
+        }
+        
+        function loadTasks() {
+            const e = localStorage.getItem('tasks');
+            if(e) {
+                const d = dec(e, pass);
+                if(d) tasks = JSON.parse(d);
+            }
+        }
+        
+        function save() {
+            localStorage.setItem('tasks', enc(JSON.stringify(tasks), pass));
+        }
+        
+        function addTask() {
+            const t = document.getElementById('title').value.trim();
+            const dt = document.getElementById('date').value;
+            const tm = document.getElementById('time').value;
+            if(!t || !dt || !tm) return alert('Completa título, fecha y hora');
+            const datetime = new Date(`${dt}T${tm}`);
+            if(datetime <= new Date()) return alert('La fecha debe ser futura');
+            
+            tasks.unshift({
+                id: Date.now(),
+                title: t,
+                desc: document.getElementById('desc').value.trim(),
+                datetime: `${dt}T${tm}`,
+                reminder: parseFloat(document.getElementById('reminder').value),
+                done: false
+            });
+            save();
+            render();
+            document.getElementById('title').value = '';
+            document.getElementById('desc').value = '';
+            document.getElementById('date').value = '';
+            document.getElementById('time').value = '';
+        }
+        
+        function toggle(id) {
+            const t = tasks.find(x => x.id === id);
+            if(t) { t.done = !t.done; save(); render(); }
+        }
+        
+        function del(id) {
+            if(confirm('¿Eliminar?')) {
+                tasks = tasks.filter(x => x.id !== id);
+                save();
+                render();
+            }
+        }
+        
+        function render() {
+            const sorted = [...tasks].sort((a,b) => a.done-b.done || new Date(a.datetime)-new Date(b.datetime));
+            const pending = tasks.filter(t => !t.done).length;
+            document.getElementById('count').textContent = pending;
+            
+            const container = document.getElementById('tasks');
+            if(!sorted.length) return container.innerHTML = '<div class="empty">No hay tareas</div>';
+            
+            container.innerHTML = sorted.map(t => {
+                const dt = new Date(t.datetime);
+                const now = new Date();
+                const overdue = !t.done && now > dt;
+                return `
+                    <div class="task-item ${t.done?'completed':''} ${overdue?'overdue':''}">
+                        <div class="task-header">
+                            <div class="task-title">${t.title}</div>
+                            <div class="task-actions">
+                                ${!t.done?`<button class="btn-complete" onclick="toggle(${t.id})">✓</button>`:''}
+                                <button class="btn-delete" onclick="del(${t.id})">🗑️</button>
+                            </div>
+                        </div>
+                        ${t.desc?`<div style="color:#666;margin-top:8px">${t.desc}</div>`:''}
+                        <div style="margin-top:10px;font-size:14px;color:#666">
+                            📅 ${dt.toLocaleDateString('es')} 🕐 ${dt.toLocaleTimeString('es',{hour:'2-digit',minute:'2-digit'})}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+        
+        function changePass() {
+            const old = prompt('Contraseña actual:');
+            if(!old || h(old) !== localStorage.getItem('hp')) return alert('Contraseña incorrecta');
+            const n = prompt('Nueva contraseña (mín 4 caracteres):');
+            if(!n || n.length<4) return alert('Mínimo 4 caracteres');
+            const c = prompt('Confirma nueva contraseña:');
+            if(n !== c) return alert('No coinciden');
+            
+            const e = localStorage.getItem('tasks');
+            if(e) {
+                const d = dec(e, old);
+                if(d) localStorage.setItem('tasks', enc(d, n));
+            }
+            localStorage.setItem('hp', h(n));
+            pass = n;
+            alert('✅ Contraseña cambiada');
+        }
+        
+        function reset() {
+            if(confirm('⚠️ Esto borrará TODAS tus tareas. ¿Continuar?')) {
+                localStorage.clear();
+                location.reload();
+            }
+        }
+        
+        function err(msg) {
+            const e = document.getElementById('error');
+            e.textContent = msg;
+            e.style.display = 'block';
+        }
+        
+        window.onload = init;
+        document.getElementById('loginPass')?.addEventListener('keypress', e => e.key==='Enter' && login());
+    </script>
+</body>
+</html>
